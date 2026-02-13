@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'C:/Users/student/AppData/Local/Programs/Python/Python314 bin_search.py'
+                bat 'C:/Users/student/AppData/Local/Programs/Python/Python314/python.exe bin_search.py'
             }
         }
         stage('Test') {
